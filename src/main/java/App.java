@@ -14,10 +14,10 @@ public class App {
         Scanner in = new Scanner(System.in);
         Year yr = Year.now();
 
-        System.out.print("What is your current age?" );
+        System.out.print("What is your current age? " );
         String age = in.nextLine();
 
-        System.out.print("At what age would you like to retire?" );
+        System.out.print("At what age would you like to retire? " );
         String retire = in.nextLine();
 
         int a = Integer.parseInt(age);
